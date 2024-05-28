@@ -1,64 +1,32 @@
-{
-    margin:0;
-    padding:0;
-    font-family:poppins; sans-serif;
-    box-sizing:border-box;
+.meme-generator{
+    font-family: "Roboto", sans-serif;
+text-align: center;
 }
-body{
-    background-color: chocolate;
-    color: honeydew;
 
+.meme-generator img{
+    height: 430px;
+    object-fit: cover;
 }
-.search-box{
-width: 600px;
-background-color: antiquewhite;
-margin: 200px auto 0;
-border-radius: 5px;
-}
-.row{
-    display:flex;
-    align-items: center;
-    padding:10px 20px;
-}
-input{
-    flex:1;
-    height:50px;
-    background:transparent;
-    border:0;
-    outline:0;
-    font-size:18px;
-    color:brown;
 
-}
-button{
-    background: transparent;
-    border:0;
-    outline:0;
-}
-button.fa-solid{
-    width: 25px;
-    color:burlywood;
-    font: size 22px;
-    cursor:pointer;
-
-}
-::placeholder{
-    color: aliceblue;
-}
-.result-box ul{
-    border: top 1px solid#999;
-    padding:15px 10px;
+.meme-generator.generate-meme-btn{
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    background-color:#fff;
     cursor: pointer;
-}
-.result-box ul li:hover{
-    background-color: azure;
+    transition: all 400ms ease;
 
 }
-.result-box{
-    max-height:300px;
-    overflow-y:scroll;
+.meme-generator.generate-meme-btn:hover{
+    padding: 8px 39px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
 }
-
-
-
+.meme-generator.meme-author{
+    margin: 8px;
 }
