@@ -1,0 +1,64 @@
+{
+    margin:0;
+    padding:0;
+    font-family:poppins; sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-color: chocolate;
+    color: honeydew;
+
+}
+.search-box{
+width: 600px;
+background-color: antiquewhite;
+margin: 200px auto 0;
+border-radius: 5px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    padding:10px 20px;
+}
+input{
+    flex:1;
+    height:50px;
+    background:transparent;
+    border:0;
+    outline:0;
+    font-size:18px;
+    color:brown;
+
+}
+button{
+    background: transparent;
+    border:0;
+    outline:0;
+}
+button.fa-solid{
+    width: 25px;
+    color:burlywood;
+    font: size 22px;
+    cursor:pointer;
+
+}
+::placeholder{
+    color: aliceblue;
+}
+.result-box ul{
+    border: top 1px solid#999;
+    padding:15px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background-color: azure;
+
+}
+.result-box{
+    max-height:300px;
+    overflow-y:scroll;
+}
+
+
+
+}
